@@ -1,4 +1,4 @@
-package arrays;
+package binarySearch;
 
 /*
 LeetCode #704 - Binary Search
