@@ -1,4 +1,4 @@
-package binarySearch;
+package binarySearch.medium;
 
 /*
 LeetCode #153 - Find Minimum in Rotated Sorted Array
