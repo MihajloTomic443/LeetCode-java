@@ -1,4 +1,4 @@
-package binarySearch;
+package binarySearch.easy;
 
 /*
 LeetCode #744 - Find Smallest Letter Greater Than Target
