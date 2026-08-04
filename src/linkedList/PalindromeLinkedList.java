@@ -9,7 +9,6 @@ package linkedList;
  * Topic: Linked List
  *
  * Time Complexity: O(n)
- *
  * Space Complexity: O(1)
  *
  * Idea:
@@ -24,7 +23,7 @@ package linkedList;
  * - Practiced comparing two linked lists node by node.
  * - Combined multiple linked list patterns into one solution.
  *
- * Solved: 2026-08-02
+ * Solved: 2026-08-04
  */
 
 public class PalindromeLinkedList {
