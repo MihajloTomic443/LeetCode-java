@@ -1,4 +1,4 @@
-package linkedList;
+package linkedList.easy;
 
 
 
@@ -25,6 +25,8 @@ package linkedList;
  *
  * Solved: 2026-08-04
  */
+
+import linkedList.ListNode;
 
 public class PalindromeLinkedList {
 

@@ -1,4 +1,4 @@
-package linkedList;
+package linkedList.easy;
 /*
  * LeetCode 21 - Merge Two Sorted Lists
  *
@@ -24,6 +24,8 @@ package linkedList;
  *
  * Solved: 2026-08-02
  */
+
+import linkedList.ListNode;
 
 public class MergeTwoSortedLists {
 

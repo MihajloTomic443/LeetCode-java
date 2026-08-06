@@ -1,4 +1,4 @@
-package linkedList;
+package linkedList.easy;
 
 /*
  * LeetCode 206 - Reverse Linked List
@@ -24,6 +24,8 @@ package linkedList;
  *
  * Solved: 2026-08-02
  */
+
+import linkedList.ListNode;
 
 public class ReverseLinkedList {
 

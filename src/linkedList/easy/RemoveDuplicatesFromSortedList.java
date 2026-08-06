@@ -1,4 +1,4 @@
-package linkedList;
+package linkedList.easy;
 
 /*
  * LeetCode 83 - Remove Duplicates from Sorted List
@@ -22,6 +22,8 @@ package linkedList;
  *
  * Solved: 2026-08-02
  */
+
+import linkedList.ListNode;
 
 public class RemoveDuplicatesFromSortedList {
 
