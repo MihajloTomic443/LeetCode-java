@@ -1,7 +1,5 @@
 package linkedList.medium;
 
-
-
 /*
  * LeetCode 82 - Remove Duplicates from Sorted List II
  *
@@ -31,36 +29,30 @@ import linkedList.ListNode;
 
 public class RemoveDuplicatesFromSortedListII {
 
-    public ListNode deleteDuplicates(ListNode head) {
-
-        ListNode current = head;
-        ListNode next = head.next;
-        ListNode dummy = new ListNode(-1);
-        ListNode previous = dummy;
-
-        dummy.next = head;
-
-        while (current.next != null) {
-
-            if (current.val == next.val) {
-
-                while (current.val == current.next.val) {
-                    current = current.next;
-                    continue;
-                }
-
-                next = current.next;
-                current = previous;
-                previous.next = next;
-
-            } else {
-
-                previous = current;
-                current = next;
-                next = current.next;
+        public ListNode deleteDuplicates(ListNode head) {
+            if (head == null) {
+                return head;
             }
+            ListNode current = head;
+            ListNode next = current.next;
+            ListNode dummy = new ListNode (-1);
+            ListNode previous = dummy;
+            dummy.next = head;
+            while(current.next != null){
+                if(current.val == next.val){
+                    while(current.next != null && current.val == current.next.val){
+                        current = current.next;
+                    }
+                    next = current.next;
+                    current = previous;
+                    previous.next = next;
+                } else {
+                    previous = current;
+                    current = next;
+                    next = current.next;
+                }
+            }
+            return dummy.next;
         }
 
-        return dummy.next;
-    }
 }
