@@ -25,13 +25,13 @@ package trees;
 
 public class MaximumDepthOfBinaryTree {
 
-    public int maxDepthOfBinaryTree(TreeNode root) {
+    public int maxDepth(TreeNode root) {
         if (root == null) {
             return 0;
         }
 
-        int leftChild = maxDepthOfBinaryTree(root.left);
-        int rightChild = maxDepthOfBinaryTree(root.right);
+        int leftChild = maxDepth(root.left);
+        int rightChild = maxDepth(root.right);
 
         return Math.max(leftChild, rightChild) + 1;
     }
